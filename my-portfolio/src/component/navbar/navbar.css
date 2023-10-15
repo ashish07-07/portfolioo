@@ -17,7 +17,7 @@ ul {
   height: 5rem;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .mobile-navbar-btn {
     display: none;
   }
