@@ -89,6 +89,7 @@ export default function Footer() {
               </span>
             </a>
           </span>
+          {/* <div className="footerleft">cm.b.49ayush.shukla@gmail.com</div> */}
         </div>
         <div className="footerleft">cm.b.49ayush.shukla@gmail.com</div>
       </div>

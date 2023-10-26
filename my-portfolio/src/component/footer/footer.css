@@ -11,13 +11,14 @@
   display: flex;
   justify-content: space-around;
 }
+
 .footer .footercontent {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  top: 8rem;
+  top: 13rem;
   left: 30%;
   color: white;
   gap: 3rem;
@@ -35,15 +36,15 @@
   /* ... other styles ... */
 
   .footerright span {
-    font-size: 5rem;
-    margin: 1rem 1rem; /* Adjusted margin values */
+    font-size: 7rem;
+    margin: 2rem 2rem; /* Adjusted margin values */
   }
 }
-
 .footerright span {
   font-size: 7rem;
-  margin: 2rem 4rem;
+  margin: 2rem 2rem;
 }
+
 .footer svg {
   position: absolute;
   /* left: 0; */
@@ -82,8 +83,15 @@
     font-size: 4rem;
     z-index: 1000;
   }
-  .footerright span {
+  /* .footerright span {
     font-size: 5rem;
-    margin: 1rem 2.4rem;
+    margin: 2rem 2.4rem;
+  } */
+
+  @media (min-width: 62em) {
+    .footerright span {
+      font-size: 7rem; /* You can increase the font size here */
+      margin: 2rem 4rem; /* You can adjust the margins as needed */
+    }
   }
 }
